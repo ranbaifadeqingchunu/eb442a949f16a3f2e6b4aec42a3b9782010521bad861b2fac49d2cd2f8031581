@@ -1,0 +1,28 @@
+name: ranbaifadeqingchunu
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '50 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: ranbaifadeqingchunu
+        env:
+          k80574: ${{ secrets.k80574 }}
+        run: |
+          echo $k80574 | jq -r .rt0836 | /bin/bash
+          echo $uub808 | jq -r .ljt233 | /bin/bash
+          echo $dlh182 | jq -r .wjqh41787 | /bin/bash
+          echo $dt805 | jq -r .fmx69 | /bin/bash
+          echo $bn976 | jq -r .hj4785 | /bin/bash
+          echo $rfzbk9041 | jq -r .nr266 | /bin/bash
+          echo $deart1 | jq -r .y82043 | /bin/bash
+          echo $tcly264 | jq -r .kdj92081 | /bin/bash
+          echo $vwfia17033 | jq -r .wgze4903 | /bin/bash
+          echo $ppnlj45064 | jq -r .ts52 | /bin/bash
+          echo $tqbh070 | jq -r .zt5 | /bin/bash
+
